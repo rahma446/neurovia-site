@@ -1,0 +1,282 @@
+    body {
+      font-family:Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background:url(images/background2.png);
+    }
+    header {
+      background-color: #ffffff;
+      color: white;
+      padding: 0 ;
+      text-align: center;
+
+    }
+    div {
+        margin-right: 60px;
+    }
+    div ul{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    div ul li{
+        gap: 10px;
+    }
+
+    div  img{
+        height: 150px;
+        margin-top: 20px;
+    }
+    .Name{
+        font-weight: 900;
+        font-family: 'Exo2', sans-serif;
+        font-size: 36px;
+        color: #1b1a2c;
+    }    
+    .links ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      margin-top: -60px;
+      margin-left: 220px;
+    }
+    .links ul li {
+      margin: 0 15px;
+    }
+    .links ul li a {
+      color: #1b1a2c;
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .links ul li :hover {
+  color: #3B638C;
+    }
+    .border{
+        background: #1b1a2c;
+        font-size: 2px;
+        padding: 0px;
+        width: 100%;
+        color: #1b1a2c;
+
+    }
+
+
+
+                
+    .welcome-section {     /* welcomesection */
+        background-size: cover;
+        background-position: center;
+        background-image: url(images/background.png) ;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: center;
+        background-repeat: no-repeat;
+        text-align: left;
+        color: white;
+        height: 600px; 
+        border: 3px ; 
+        margin: 40px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        padding: 40px;
+    }
+    .welcome-section h1 {  /* heading*/
+        font-size: 40px;
+        margin-bottom: 10px;
+        color: #1b1a2c;
+        font-family: 'Exo2', sans-serif;
+        font-weight:800 ;
+        margin-top: 3%; 
+    }
+    .welcome-section p {   /* short welcome paragraph */
+        color:  #3B638C;
+        font-size: 20px;
+        margin-right: 70%;
+        line-height: 1.7;
+        margin-bottom: 50px;
+    }
+    .learn-more {          /* learn more button */
+        display: inline-block;
+        text-decoration: none;
+        background-color: #3B638C;
+        color: white;
+        padding: 12px 24px;
+        border-radius: 20px;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+        width: 10%;
+        text-align: center;
+    }
+    .learn-more:hover {
+        background-color: #1b1a2c;
+    }
+
+
+
+
+
+    #about{              /* about section */
+        background-color: #ffffff;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        text-align: center;
+        border: 3px ; 
+        margin: 40px; 
+    }
+    #about h2{           /* subheading */
+        margin-right:75% ; 
+        margin-bottom: -6%; 
+        font-weight:800 ;
+        padding-top:25px ;
+        padding-left: 50px;
+        font-size: 30px;
+        color: #3B638C;
+        font-family: 'Exo2', sans-serif;
+    }
+    #about  iframe {     /* video */
+        width: 90%;
+        max-width: 560px;
+        height: 300px;
+        border: none;
+        margin-top: 20px;
+        padding-bottom: 28px;
+        margin-left: 60%
+    }
+    #about p {           /* info paragraph */
+        margin-right:60% ; 
+        margin-top: -18% ; 
+        text-align: left;
+        padding-bottom:60px ;
+        padding-left: 50px;
+        color: #1b1a2c;
+        font-size: 14px;
+    }
+    
+
+    .Services-section { /* Services section section */
+        border: 3px ; 
+        margin: 40px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        padding: 20px;
+        background-color: #ffffff;
+        text-align: center;
+    } 
+    .our-services{       /* subheading */
+        font-weight:800 ;
+        margin-right:75% ; 
+        font-size: 30px;
+        color: #3B638C;
+        font-family: 'Exo2', sans-serif;
+    }
+    .services-list {     /* list */
+        text-align: left;
+    }
+
+    .service{            /* service name */
+        font-size: 18px;
+        color: #1b1a2c;
+        font-weight: bold;
+    }
+    .ex{                 /* sub list */
+        font-size: 14px;
+        color: #1b1a2c;
+    }
+    .cards {             /* cards */
+        display: flex;
+        justify-content: right;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: -28%;
+        margin-left: 25%; 
+    }
+    .card {
+        background: white;
+        border-radius: 10px;
+        width: 250px;
+        padding: 15px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        height: 200px;
+    }
+    .card img {          /* card image */
+        width: 100%;
+        border-radius: 8px;
+    }
+    .card h3{            /* card name */
+        font-size: 16px;
+        color: #3B638C;
+        font-family: 'Exo2', sans-serif;
+    }
+
+
+    .Smart-Systems-section {        /* Smart Systems Section */
+        border: 3px ; 
+        margin: 40px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        padding: 20px;
+        background-color: #ffffff;
+    }
+    .Smart-Systems-section h3{      /* subheading */
+        font-weight:800 ;  
+        margin-right:75% ; 
+        font-size: 30px;
+        color: #3B638C;
+        font-family: 'Exo2', sans-serif;
+    }
+    .Smart-Systems-section table {  /* table */
+        width: 100%;
+        border-collapse: collapse;
+        background-color: #ffffff;
+    }
+   .Smart-Systems-section th {
+       background-color: #1b1a2c;
+       color: #ffffff;
+       font-size: 20px;
+       text-align: center;
+       padding: 10px;
+       border: 1px solid #1b1a2c;
+    }
+   .Smart-Systems-section td {
+        padding: 10px;
+        border: 1px solid #1b1a2c;
+        font-size: 16px;
+        text-align: left;
+        color: #1b1a2c;
+    }
+
+
+    .contact-us {
+        border: 3px ; 
+        margin: 40px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        padding: 40px;
+        background-color: #ffffff;
+        text-align: left;
+    }
+    .contact-us h3{
+        font-weight:800 ;
+        margin-right:75% ; 
+        font-size: 30px;
+        color: #3B638C;
+        font-family: 'Exo2', sans-serif;
+        padding-left: 58px;
+    }
+    .contact-us p{
+        font-weight: bold;
+    }
+
+    footer {
+        background-color: #2e2e2e;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 30px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    section:target {
+        background-color: #e0f7fa;  
+        outline: 3px solid #00bcd4; 
+        transition: all 0.5s ease; 
+    }
